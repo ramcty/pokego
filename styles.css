@@ -76,6 +76,10 @@ cursor: pointer;
     
 }
 
+.openbtn:hover{
+    background-color: rgb(55, 47, 150);
+}
+
 #main {
 transition: margin-left .5s;
 }
@@ -99,35 +103,6 @@ nav img {
     text-align: right;
 }
 
-.nav-links ul li {
-    list-style: none;
-    display: inline-block;
-    padding: 8px 12px;
-    position: relative;
-}
-
-.nav-links ul li a {
-    color: #ffffff;
-    text-decoration: none;
-    font-size: 1.5rem;
-
-}
-
-.nav-links ul li::after {
-    content: '';
-    width: 0%;
-    height: 2px;
-    background: #0c64f2;
-    display: block;
-    margin: auto;
-    transition: 0.5s;
-
-}
-
-.nav-links ul li:hover::after {
-    width: 100%;
-
-}
 
 .text-box {
     margin-top: 5%;
