@@ -175,7 +175,7 @@ video {
     .text-box {
         display: flex;
         align-items: center;
-        transform: translate(15%, 10%);
+   
     }
 
 }
