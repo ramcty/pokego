@@ -1,0 +1,198 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Open+Sans:wght@400;700&family=Roboto:wght@400;700&display=swap');
+
+/*global reset*/
+* {
+    padding: 0;
+    margin: 0;
+}
+
+/*fix up for older browsers to draw the new semantic elements*/
+
+header,
+nav,
+main,
+aside,
+article,
+section,
+footer,
+figure,
+figcaption {
+    display: block;
+}
+
+html {
+    font-size: 10px;
+    font-family: Roboto, 'Open Sans', sans-serif;
+    scroll-behavior: smooth;
+
+}
+
+.header {
+    min-height: 100vh;
+    width: 100%;
+    position: relative;
+    background-image: url(images/pokemonball.jpg);
+    margin: auto;
+
+}
+
+.course {
+    width: 100%;
+    min-height: 100vh;
+    margin: auto;
+
+    text-align: center;
+    align-items: center;
+    padding-top: 100px;
+    background-color: black;
+
+
+}
+
+.course-col {
+    display: flex;
+    margin-top: 5%;
+
+
+}
+
+.row {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+}
+
+
+nav {
+    display: flex;
+    padding: 2% 6%;
+    justify-content: space-between;
+    align-items: center;
+
+
+}
+
+nav img {
+    width: 150px;
+}
+
+.nav-links {
+    flex: 1;
+    text-align: right;
+}
+
+.nav-links ul li {
+    list-style: none;
+    display: inline-block;
+    padding: 8px 12px;
+    position: relative;
+}
+
+.nav-links ul li a {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 1.5rem;
+
+}
+
+.nav-links ul li::after {
+    content: '';
+    width: 0%;
+    height: 2px;
+    background: #0c64f2;
+    display: block;
+    margin: auto;
+    transition: 0.5s;
+
+}
+
+.nav-links ul li:hover::after {
+    width: 100%;
+
+}
+
+.text-box {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    flex-direction: row;
+
+}
+
+
+
+
+/*text styling*/
+p {
+    max-width: 500px;
+    margin: auto;
+    color: #ffffff;
+    font-size: 2rem;
+}
+
+h1 {
+    font-weight: bold;
+    color: #ffffff;
+    font-size: 7rem;
+    line-height: 1em;
+    max-width: 700px;
+}
+
+h2 {
+    font-size: 36px;
+    font-weight: 600;
+    color: white;
+    align-items: center;
+}
+
+
+/*images and videos*/
+img {
+    max-width: 100%;
+    height: auto;
+
+}
+
+video {
+    width: 100%;
+    height: auto;
+}
+
+
+
+/*---------------------------*/
+
+/*----- MEDIA QUERY - -------*/
+
+/*--- for larger screens----*/
+
+@media only screen and (min-width:720px) {
+
+    img {
+        max-width: 960px;
+    }
+
+    .text-box {
+        display: flex;
+        align-items: center;
+        transform: translate(15%, 10%);
+    }
+
+}
+
+/*-------------------------------------*/
+/*smaller screens*/
+
+@media screen and (max-width: 990px) {
+
+    .text-box {
+        flex-wrap: wrap;
+        flex-direction: row;
+    }
+
+
+    h1 {
+        font-size: 7rem;
+    }
+
+}
