@@ -70,7 +70,7 @@ font-size: 36px;
 .openbtn {
 font-size: 24px;
 cursor: pointer;
-    background-color: black;
+    background-color: transparent;
     border: transparent;
    
     
@@ -112,6 +112,13 @@ nav img {
 
 }
 
+.row{
+    display: flex;
+    align-items: center;
+    
+}
+
+
 .midrow{
    min-height: 100vh;
     width: 100%;
@@ -122,13 +129,18 @@ nav img {
     padding-top: 5%;
     flex-direction: row;
     
+    
 }
 
-.row{
-    display: flex;
-    align-items: center;
-    
-    
+.overlay {
+  position: absolute;
+    opacity: 0.5;
+  transition: .2s ease;
+  background-color:blue;
+}
+
+.flow:hover .overlay {
+  opacity: 1;
 }
 
 .flow{
@@ -142,6 +154,7 @@ nav img {
     max-width: 350px;
     
 }
+
 
 
 /*text styling*/
@@ -167,6 +180,16 @@ h2{
         font-size: 4rem;
     justify-content: center;
     color: white;
+}
+
+.text {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
 }
 
 
@@ -210,5 +233,15 @@ video {
         font-size: 7rem;
     }
 
+    .text-box{
+        flex-wrap: wrap;
+    }
     
+    .midrow{
+        flex-wrap: wrap;
+    }
+    
+    .flow{
+        flex-wrap: wrap;
+    }
 }
