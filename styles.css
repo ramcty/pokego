@@ -304,9 +304,17 @@ nav a:hover {
 }
 
 .compass {
-    width: 700px;
+    width: 800px;
     background: #003a70;
 
+}
+
+.compass2{
+    max-width: 600px;
+    justify-content: center;
+    text-align: center;
+    transform: translateY(200px);
+    margin-bottom: 20px;
 }
 
 
