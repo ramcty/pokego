@@ -33,6 +33,7 @@ html {
     width: 100%;
     position: relative;
     background-color: #003a70;
+    
 
 }
 
@@ -184,6 +185,7 @@ nav img {
     width: 100%;
     background-color: #003a70;
     overflow: hidden;
+    padding-top: 50px;
 }
 
 .firstreveal {
@@ -360,7 +362,7 @@ nav img {
 ul {
     position: absolute;
     right: 5%;
-    top: 10vh;
+    top: 20vh;
     height: 100vh;
     display: flex;
     flex-direction: column;
@@ -457,7 +459,7 @@ h4 {
     font-weight: normal;
     text-align: right;
     padding-top: 50px;
-    padding-right: 75px;
+    
 }
 
 h5 {
@@ -534,6 +536,72 @@ video {
 
     h1 {
         font-size: 4rem;
+    }
+    
+    h4{
+        font-size: 6rem;
+        
+    }
+    
+    p {
+        max-width: 450px;
+    }
+    
+    .firstreveal h2 {
+    font-size: 6rem;
+}
+    
+    .secondreveal h2{
+        font-size: 6rem;
+    }
+    
+    .secondreveal p {
+    
+    padding-right: 0px;
+}
+    
+    .content{
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    
+    .research {
+    min-height: 90vh;
+    width: 100%;
+    background-color: #003a70;
+    overflow: hidden;
+    padding-top: 50px;
+}
+    
+    ul {
+    position: absolute;
+    right: 5%;
+    top: 60px;
+    height: 70vh;
+}
+    
+    
+    
+    ul li span {
+    display: block;
+    font-size: 3rem;
+    text-transform: uppercase;
+
+
+}
+    
+    ul li {
+    height: 5rem;
+    
+}
+    
+    nav p{
+        font-size: 2rem;
+    }
+    
+    
+    .ref-box{
+       overflow: hidden;
     }
 
     .text-box {
