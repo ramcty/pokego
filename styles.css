@@ -414,7 +414,7 @@ nav a:hover {
 
 /*--- for larger screens----*/
 
-@media only screen and (min-width:720px) {
+@media only screen and (min-width:1700px) {
     .vectoring {
         transform: translateY(100px);
     }
@@ -427,10 +427,28 @@ nav a:hover {
 /*-------------------------------------*/
 /*smaller screens*/
 
-@media screen and (max-width: 990px) {
+@media screen and (min-width: 1401px) {
     .vectoring img {
-        width: 30%;
+        width: 35%;
     }
+}
+
+@media screen and (max-width: 1400px) {
+    .vectoring img {
+        width: 27%;
+    }
+    
+    .text-box2 {
+    
+    transform: translateY(190px);
+
+}
+    
+    .compass2 {
+    
+    transform: translateY(140px);
+    margin-bottom: 10px;
+}
 
 
 
