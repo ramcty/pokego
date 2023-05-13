@@ -439,6 +439,10 @@ nav a:hover {
         width: 32%;
     }
     
+    .mid-box1 p{
+    max-width: 320px;
+}
+    
     .text-box2 {
     
     transform: translateY(190px);
