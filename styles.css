@@ -334,6 +334,7 @@ nav a:hover {
     transform: translateY(150px);
     justify-content: center;
     text-align: center;
+    padding-left: 100px;
 }
 
 .two {
