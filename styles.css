@@ -471,10 +471,13 @@ nav a:hover {
     .wrapper {
     display: flex;
     flex-direction: column;
-    width: 670vw;
+    
+    width: 100vh;
     transform:none;
     transform-origin: top left;
     background-color: #003a70;
+        justify-content: center;
+        
         
         
 }
@@ -516,14 +519,9 @@ nav a:hover {
     
     .compass2{
         
-    
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
         transform: none;
-        width: 500px;
-        padding-left: 30px;
+        
+        padding-left: 20px;
         padding-right: 20px;
 
 
@@ -532,37 +530,40 @@ nav a:hover {
     
     .text-box {
     margin-top: 40%;
+        justify-content: center;
+    align-items: center;
 
 }
     
     .mid-box{
         
-    
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
+
         transform: none;
-        padding: none;
-        padding-left: 30px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+        padding-left: 20px;
         padding-right: 20px;
+        
 
 
 
     }
     
+    .mid-box p{
+        
+    }
+    
     .mid-box1{
         
     
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
+    
         transform: none;
-        padding: none;
-        padding-left: 30px;
+    position: relative;
+        padding-left: 20px;
         padding-right: 20px;
-
 
 
     }
@@ -618,9 +619,28 @@ nav a:hover {
     
 }
     
+    .compass{
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        width: 100vw;
+    }
+    
+    .onehalf{
+        display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+        width: 100vw;
+        flex-wrap: wrap;
+    }
+    
+    
     .two {
     background-color: #003a70;
         background-image: none;
+        
 }
     
     .three {
