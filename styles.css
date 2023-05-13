@@ -46,6 +46,7 @@ li:hover {
     align-items: center;
     flex-direction: column;
 
+
 }
 
 
@@ -96,7 +97,7 @@ h3 {
 
 }
 
-.assets{
+.assets {
     justify-content: center;
     align-items: center;
     text-align: center;
@@ -278,6 +279,10 @@ nav a:hover {
 
 #main {}
 
+.vectoring {
+    transform: translateY(100px);
+}
+
 .vectoring img {
     width: 50%;
 }
@@ -286,15 +291,15 @@ nav a:hover {
     position: fixed;
     height: 200px;
     width: 100%;
-    background-color: #1a1a1a;
+    background-color: #1d1919;
     text-align: center;
 
-    transform: translateY(290px);
+    transform: translateY(210px);
 
 }
 
 .one {
-    background: #003a70;
+    background-color: #003a70;
 }
 
 .onehalf {
@@ -309,7 +314,7 @@ nav a:hover {
 
 }
 
-.compass2{
+.compass2 {
     max-width: 600px;
     justify-content: center;
     text-align: center;
@@ -382,9 +387,9 @@ nav a:hover {
     transform: translateX(-190px);
 }
 
-.vectorcredit a{
+.vectorcredit a {
     font-size: 18px;
-    
+
 }
 
 
@@ -401,4 +406,25 @@ nav a:hover {
 
 .vectorcredit p {
     font-size: 15px;
+}
+
+/*---------------------------*/
+
+/*----- MEDIA QUERY - -------*/
+
+/*--- for larger screens----*/
+
+@media only screen and (min-width:720px) {
+    .vectoring {
+        transform: translateY(100px);
+    }
+}
+
+/*-------------------------------------*/
+/*smaller screens*/
+
+@media screen and (max-width: 990px) {}
+
+.rectangle {
+    transform: translateY(290px);
 }
