@@ -430,13 +430,13 @@ nav a:hover {
 
 @media screen and (min-width: 1401px) {
     .vectoring img {
-        width: 35%;
+        width: 40%;
     }
 }
 
 @media screen and (max-width: 1400px) {
     .vectoring img {
-        width: 27%;
+        width: 32%;
     }
     
     .text-box2 {
