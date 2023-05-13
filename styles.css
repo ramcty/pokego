@@ -458,3 +458,35 @@ nav a:hover {
 
 
 }
+
+@media screen and (max-width: 990px) {
+    .vectoring img{
+        width: 0%;
+    }
+    
+    .wrapper {
+    display: flex;
+    flex-direction: column;
+    width: 670vw;
+    transform:none;
+    transform-origin: top left;
+    background-color: #003a70;
+        
+        
+}
+    
+    .rectangle{
+        width: 0%;
+    }
+    
+    .outer-wrapper {
+    width: 100vh;
+    height: 400vw;
+    transform: none;
+    transform-origin: top left;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    position: absolute;
+    
+}
+}
