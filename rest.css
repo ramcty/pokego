@@ -533,7 +533,10 @@ video {
 
 @media screen and (max-width: 990px) {
 
-
+    html{
+        overflow-x: hidden;
+    }
+    
     h1 {
         font-size: 4rem;
     }
