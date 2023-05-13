@@ -418,11 +418,20 @@ nav a:hover {
     .vectoring {
         transform: translateY(100px);
     }
+
+    .vectoring img {
+        width: 50%;
+    }
 }
 
 /*-------------------------------------*/
 /*smaller screens*/
 
-@media screen and (max-width: 990px) {}
+@media screen and (max-width: 990px) {
+    .vectoring img {
+        width: 30%;
+    }
 
-.rectangle {}
+
+
+}
