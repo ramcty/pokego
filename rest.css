@@ -536,6 +536,7 @@ video {
     html{
         overflow-x: hidden;
         width: 100%;
+        background-color: #003a70;
     }
     
     h1 {
