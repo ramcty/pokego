@@ -40,7 +40,7 @@ li:hover {
 }
 
 .text-box {
-    margin-top: 20%;
+    margin-top: 13%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -294,7 +294,7 @@ nav a:hover {
     background-color: #1d1919;
     text-align: center;
 
-    transform: translateY(210px);
+    transform: translateY(140px);
 
 }
 
@@ -425,6 +425,4 @@ nav a:hover {
 
 @media screen and (max-width: 990px) {}
 
-.rectangle {
-    transform: translateY(290px);
-}
+.rectangle {}
