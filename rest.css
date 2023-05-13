@@ -569,7 +569,7 @@ video {
     }
     
     .research {
-    min-height: 90vh;
+    min-height: 100vh;
     width: 100%;
     background-color: #003a70;
     overflow: hidden;
