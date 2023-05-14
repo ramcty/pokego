@@ -40,7 +40,7 @@ li:hover {
 }
 
 .text-box {
-    margin-top: 13%;
+    margin-top: 11%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -60,7 +60,7 @@ a {
 p {
     max-width: 700px;
     margin: auto;
-    color: #d9d9d9;
+    color: #ebebeb;
     font-size: 2rem;
     line-height: 2;
 }
@@ -68,9 +68,9 @@ p {
 h1 {
     font-weight: bold;
     font-family: 'Rokkitt';
-    color: #eaeaea;
+    color: white;
     font-size: 7rem;
-
+    text-shadow: 1px 1px #74aadd;
     text-align: center;
     justify-content: center;
     max-width: 700px;
@@ -119,7 +119,9 @@ img {
     width: 670vw;
     transform: rotate(90deg) translateY(-100vh);
     transform-origin: top left;
-    background-color: #003a70;
+    background-image: url(images/bg.png);
+    background-size: contain;
+
 }
 
 .outer-wrapper {
@@ -159,7 +161,7 @@ header {
 
 .overlay {
 
-    z-index: 4;
+    z-index: 5;
     position: fixed;
     background: transparent;
     transform: translateY(300px);
@@ -230,13 +232,25 @@ nav a:hover {
     position: fixed;
     top: 0;
     right: 0;
-    background: rgb(0, 42, 80);
-    background: linear-gradient(185deg, rgba(0, 42, 80, 1) 0%, rgba(0, 22, 42, 1) 100%);
+    background: rgb(193, 254, 182);
+    background: linear-gradient(208deg, rgba(193, 254, 182, 1) 0%, rgba(255, 255, 255, 1) 94%, rgba(193, 254, 182, 1) 100%);
     overflow-x: hidden;
     transition: 0.5s;
     padding-top: 60px;
 
 
+}
+
+.sidebar p {
+    color: dimgray;
+}
+
+.sidebar h1 {
+    color: #1c8696;
+}
+
+.sidebar h3 {
+    color: #1c8696;
 }
 
 
@@ -258,7 +272,7 @@ nav a:hover {
     top: 0;
     right: 25px;
     font-size: 36px;
-    color: white;
+    color: #1c8696;
     cursor: pointer;
 }
 
@@ -287,30 +301,18 @@ nav a:hover {
     width: 50%;
 }
 
-.rectangle {
-    position: fixed;
-    height: 200px;
-    width: 100%;
-    background-color: #1d1919;
-    text-align: center;
+.rectangle {}
 
-    transform: translateY(140px);
-
-}
-
-.one {
-    background-color: #003a70;
-}
+.one {}
 
 .onehalf {
     width: 500px;
-    background: #003a70;
 
 }
 
 .compass {
     width: 800px;
-    background: #003a70;
+
 
 }
 
@@ -338,9 +340,14 @@ nav a:hover {
 }
 
 .two {
-    background-image: url(images/Artboard%203.png);
-    background-size: cover;
+
     flex-direction: row;
+
+}
+
+.two img {
+    width: 100%;
+    transform: translateY(-600px);
 
 }
 
@@ -361,31 +368,31 @@ nav a:hover {
     width: 100%;
 }
 
-.casing {
-    background-color: #3D5A73;
-}
+.casing {}
 
 .text-box3 {
     transform: translateY(-290px);
 }
 
-.three {
-    background-image: url(images/Artboard%202.png);
-    background-size: cover;
+.three img {
+    width: 100%;
+    transform: translateY(-400px);
+
 }
 
-.four {
-    background-image: url(images/Money.png);
-    background-size: cover;
+.four img {
+    width: 100%;
+    transform: translateY(-400px);
 }
 
-.five {
-    background-image: url(images/scanning.png);
-    background-size: cover;
+.five img {
+    width: 100%;
+    transform: translateY(-450px);
+
 }
 
 .movement {
-    transform: translateX(-190px);
+    transform: translateX(-400px);
 }
 
 .vectorcredit a {
@@ -438,24 +445,24 @@ nav a:hover {
     .vectoring img {
         width: 32%;
     }
-    
-    .mid-box1 p{
-    max-width: 320px;
-}
-    
-    .text-box2 {
-    
-    transform: translateY(190px);
 
-}
-    
+    .mid-box1 p {
+        max-width: 320px;
+    }
+
+    .text-box2 {
+
+        transform: translateY(190px);
+
+    }
+
     .compass2 {
-    
-    transform: translateY(140px);
-    margin-bottom: 10px;
-}
-    
-    nav{
+
+        transform: translateY(140px);
+        margin-bottom: 10px;
+    }
+
+    nav {
         position: fixed;
     }
 
@@ -464,79 +471,84 @@ nav a:hover {
 }
 
 @media screen and (max-width: 1000px) {
-    .vectoring img{
+    .vectoring img {
         visibility: hidden;
     }
-    
+
+    h1 {
+        color: white;
+    }
+
     .wrapper {
-    display: flex;
-    flex-direction: column;
-    
-    width: 100vh;
-    transform:none;
-    transform-origin: top left;
-    background-color: #003a70;
+        display: flex;
+        flex-direction: column;
+        background-image: none;
+        width: 100vh;
+        transform: none;
+        transform-origin: top left;
+        background-color: #003a70;
         justify-content: center;
-        
-        
-        
-}
-    
+
+
+
+    }
+
     .sidebar {
         visibility: hidden;
         width: 0px;
         height: 0px;
     }
-    
+
     .text-box2 {
-    
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
         transform: none;
         padding-left: 30px;
         padding-right: 20px;
 
 
-}
-    .movement{
+    }
+
+    .movement {
         transform: none;
     }
-    
+
     .text-box3 {
-    
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
         transform: none;
         padding-left: 30px;
         padding-right: 20px;
 
 
-}
-    
-    .compass2{
-        
+    }
+
+    .compass2 {
+
         transform: none;
-        
+
         padding-left: 20px;
         padding-right: 20px;
 
 
 
     }
-    
-    .text-box {
-    margin-top: 40%;
-        justify-content: center;
-    align-items: center;
 
-}
-    
-    .mid-box{
-        
+    .text-box {
+        margin-top: 40%;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+    .mid-box {
+
 
         transform: none;
         display: flex;
@@ -546,113 +558,135 @@ nav a:hover {
         flex-wrap: wrap;
         padding-left: 20px;
         padding-right: 20px;
-        
+
 
 
 
     }
-    
-    .mid-box p{
-        
-    }
-    
-    .mid-box1{
-        
-    
-    
+
+    .mid-box p {}
+
+    .mid-box1 {
+
+
+
         transform: none;
-    position: relative;
+        position: relative;
         padding-left: 20px;
         padding-right: 20px;
 
 
     }
+
     header {
-    height: 100px;
+        height: 100px;
 
-    width: 100%;
-    z-index: 5;
-    position: absolute;
-    display: flex;
-    flex-direction: row;
-    background-color: #002445;
+        width: 100%;
+        z-index: 5;
+        position: absolute;
+        display: flex;
+        flex-direction: row;
+        background-color: #002445;
 
-}
-    
-    .nwrap{
+    }
+
+    .nwrap {
+        position: absolute;
+        align-items: center;
+    }
+
+
+
+    .loo {
+        width: 100px;
+        float: left;
+        line-height: 100px;
         position: absolute;
     }
-    
-    .loo {
-    width: 100px;
-    float: left;
-    line-height: 100px;
-    position: absolute;
-}
 
-.loo p {
-    width: 10px;
-    font-size: 0.01px;
-    
-    
-}
-    
-    
-    .loo a{
+    .loo p {
+        width: 10px;
+        font-size: 0.01px;
+
+
+    }
+
+
+    .loo a {
         font-size: 14px;
         font-weight: bold;
     }
-    
-    .rectangle{
+
+    .rectangle {
         visibility: hidden;
     }
-    
-    
+
+
     .outer-wrapper {
-    width: 100%;
-    height: 100%;
-    transform: none;
-    transform-origin: top left;
-    overflow-y: scroll;
-    overflow-x: hidden;
-    position: absolute;
-    
-}
-    
-    .compass{
+        width: 100%;
+        height: 100%;
+        transform: none;
+        transform-origin: top left;
+        overflow-y: scroll;
+        overflow-x: hidden;
+        position: absolute;
+
+    }
+
+    .compass {
         justify-content: center;
         align-items: center;
         display: flex;
         flex-direction: column;
         width: 100vw;
     }
-    
-    .onehalf{
+
+    .onehalf {
         display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
         width: 100vw;
         flex-wrap: wrap;
+        background-color: #003a70;
+        background-image: none;
     }
-    
-    
+
+
     .two {
-    background-color: #003a70;
+        background-color: #003a70;
         background-image: none;
-        
-}
-    
+
+    }
+
+    .two img {
+        visibility: hidden;
+    }
+
     .three {
-    background-color: #003a70;
+        background-color: #003a70;
         background-image: none;
-}
+    }
+
+    .three img {
+        visibility: hidden;
+    }
+
     .four {
-    background-color: #003a70;
+        background-color: #003a70;
         background-image: none;
-}
+    }
+
+    .four img {
+        visibility: hidden;
+    }
+
     .five {
-    background-color: #003a70;
+        background-color: #003a70;
         background-image: none;
-}
+    }
+
+    .five img {
+        visibility: hidden;
+    }
 }
