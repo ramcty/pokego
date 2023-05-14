@@ -460,10 +460,15 @@ nav a:hover {
 
         transform: translateY(140px);
         margin-bottom: 10px;
+        margin-right: 20px;
     }
 
     nav {
         position: fixed;
+    }
+    
+    .movement{
+        margin-left: 50px;
     }
 
 
