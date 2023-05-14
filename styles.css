@@ -116,7 +116,7 @@ img {
 .wrapper {
     display: flex;
     flex-direction: row;
-    width: 670vw;
+    width: 700vw;
     transform: rotate(90deg) translateY(-100vh);
     transform-origin: top left;
     background-image: url(images/bg.png);
@@ -395,6 +395,8 @@ nav a:hover {
     transform: translateX(-400px);
 }
 
+
+
 .vectorcredit a {
     font-size: 18px;
 
@@ -430,6 +432,9 @@ nav a:hover {
     .vectoring img {
         width: 50%;
     }
+    
+    
+
 }
 
 /*-------------------------------------*/
@@ -442,7 +447,8 @@ nav a:hover {
 }
 
 @media screen and (max-width: 1400px) {
-    .vectoring img {
+    
+        .vectoring img {
         width: 32%;
     }
 
@@ -455,6 +461,16 @@ nav a:hover {
         transform: translateY(190px);
 
     }
+    
+    .movement {
+    transform: none;
+}
+    
+    .five img{
+        transform: translateY(-100px);
+    }
+    
+   
 
     .compass2 {
 
@@ -466,10 +482,8 @@ nav a:hover {
     nav {
         position: fixed;
     }
+  
     
-    .movement{
-        margin-left: 50px;
-    }
 
 
 
@@ -516,6 +530,8 @@ nav a:hover {
 
 
     }
+    
+    
 
     .movement {
         transform: none;
